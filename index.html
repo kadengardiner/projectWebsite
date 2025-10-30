@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kiwi Egg Defense</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Background -->
+  <div id="particles-js"></div>
+
+  <!-- Header -->
+  <header>
+    <h1>Kiwi Egg Defense</h1>
+  </header>
+
+  <!-- Two-column layout -->
+  <div class="main-container">
+    <!-- To-Do List -->
+    <div class="todo-container">
+      <h2>Team To-Do List</h2>
+      <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Add a new task..." required>
+        <button type="submit">Add</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <!-- Project Links -->
+    <div class="links-container">
+      <h2>Project Links</h2>
+      <ol>
+        <li><a href="#">Files</a></li>
+        <li><a href="#">Research Notes</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Play</a></li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../particles.js"></script>
+  <script src="js/app.js"></script>
+  <script src="todo.js"></script>
+</body>
+</html>
